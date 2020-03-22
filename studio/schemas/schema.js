@@ -17,6 +17,9 @@ import authorReference from './objects/authorReference'
 import book from './documents/book'
 import stream from './documents/stream'
 import game from './documents/game'
+import bibleverse from './documents/bibleverse'
+import church from './documents/church'
+import gym from './documents/gym'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -37,6 +40,9 @@ export default createSchema({
     book,
     stream,
     game,
+    bibleverse,
+    church,
+    gym,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
