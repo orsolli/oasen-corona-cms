@@ -52,12 +52,17 @@ export default () =>
         .icon(MdPerson)
         .schemaType('author')
         .child(S.documentTypeList('author').title('Authors')),
+      S.listItem()
+        .title('Books')
+        .icon(MdDescription)
+        .schemaType('book')
+        .child(S.documentTypeList('book').title('Books')),
       // `S.documentTypeListItems()` returns an array of all the document types
       // defined in schema.js. We filter out those that we have
       // defined the structure above.
       ...S.documentTypeListItems().filter(
         listItem =>
-          !['author', 'books', 'siteSettings'].includes(
+          !['author', 'book', 'siteSettings'].includes(
             listItem.getId()
           )
       )

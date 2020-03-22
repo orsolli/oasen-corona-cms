@@ -40,7 +40,7 @@ export default {
     { name: 'project-users', layout: { height: 'auto' } },
     {
       name: 'document-list',
-      options: { title: 'Recent resources', order: '_createdAt desc', types: ['book'] },
+      options: { title: 'Recent resources', order: '_createdAt desc', types: ['book', 'stream', 'game'] },
       layout: { width: 'medium' }
     }
   ]
