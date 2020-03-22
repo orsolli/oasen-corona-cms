@@ -12,16 +12,16 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
+                  buildHookId: '5e76c091ab731bdce980b7d3',
+                  title: 'Oasen-corona',
+                  name: 'oasen-corona',
+                  apiId: '4a5b15e5-4062-4833-9cd6-d2099b9db201'
+                },
+                {
                   buildHookId: '5e76942e08cbd0556f81189f',
                   title: 'Sanity Studio',
                   name: 'oasen-corona-cms-studio',
                   apiId: '486a4283-2725-4c0c-bc1c-6e37782a1953'
-                },
-                {
-                  buildHookId: '5e76942e4fee5d94575610d6',
-                  title: 'Blog Website',
-                  name: 'oasen-corona-cms',
-                  apiId: '7080471a-fa74-4687-8137-fc67f9e66fc9'
                 }
               ]
             }
